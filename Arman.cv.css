@@ -1,0 +1,114 @@
+* {
+    margin:0%;
+    padding: 0;
+  }
+  body{
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+  }
+  .container{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(159, 184, 85);
+    padding: 20px;
+  }
+  .profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid black;
+    border-radius: 50%;
+    float: left;
+  }
+  .bio{
+    float: left;
+    padding: 20px;
+  }
+  h1,h2,h3,h4,h5,h6{
+    color: #111eee;
+  }
+  .contact{
+    float:right;
+    padding: 20px;
+  }
+  .contact:hover{
+    text-decoration: underline;
+    color: tomato;
+    
+  }
+  .contact a{
+    text-decoration: none;
+    font-weight: bold;
+    color: teal;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+   border: black solid 3px;
+   width: 100%;
+   border-bottom: none;
+   margin: 20px auto;
+}
+.personal-data{
+    
+}
+.personal-info{
+    margin-bottom: 30px;
+}
+.left{
+   float: left; 
+   width:25%;
+}
+.right{
+   float:left; 
+   width: 75%;
+   margin-bottom: 20px;
+}
+.common-hr{
+    border:solid black 1px;
+    border-bottom: none;
+    width: auto;
+    margin: 10px;
+}
+.education-info-left{
+    float:left; 
+    width:45%;
+ }
+ .education-info-right{
+    float:right; 
+    width: 45%;
+ }
+ .end-profile{
+    text-align: center;
+    color:white;
+
+
+ }
+ footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+ }
+ .copyright{
+    color:white;
+ }
+ .city-country{
+    float: right;
+    max-width: 45%;
+
+    
+ }
+ .job1{
+    float: left;
+    width: 45%;
+ }
+ .job2{
+    float: left;
+    width: 45%;
+    
+ }
+ .job3{
+    float: left;
+    width: 45%;
+    
+ }
